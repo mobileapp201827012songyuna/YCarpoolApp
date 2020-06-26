@@ -1,11 +1,10 @@
 package com.android.developer.yuhancarpool;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MenuActivity extends AppCompatActivity {
 
@@ -36,7 +35,7 @@ public class MenuActivity extends AppCompatActivity {
     }
 
     public void onNearPlaceButtonClicked(View view) {
-        Intent intent = new Intent(getApplicationContext(), NearPlaceActivity.class);
+        Intent intent = new Intent(getApplicationContext(), MapActivity.class);
         startActivity(intent);
     }
 }

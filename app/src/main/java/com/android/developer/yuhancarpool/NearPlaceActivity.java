@@ -33,7 +33,7 @@ public class NearPlaceActivity extends AppCompatActivity
         button18.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //버튼 클릭 시 GPS에서 사용자의 위치를 가져오는 코드
+
                 startLocationService();
             }
         });
@@ -74,7 +74,7 @@ public class NearPlaceActivity extends AppCompatActivity
 
     @Override
     public void onDenied(int i, String[] strings) {
-
+        //Do nothing. i wrote it because SonarLint said me add a nested comment explaining why this mothod is empty...
     }
 
 
@@ -88,7 +88,7 @@ public class NearPlaceActivity extends AppCompatActivity
 
     @Override
     public void onGranted(int i, String[] strings) {
-
+        //Do nothing. i wrote it because SonarLint said me add a nested comment explaining why this mothod is empty...
     }
 
     class GPSListener implements LocationListener {
@@ -106,17 +106,17 @@ public class NearPlaceActivity extends AppCompatActivity
 
         @Override
         public void onStatusChanged(String provider, int status, Bundle extras) {
-
+            //Do nothing. i wrote it because SonarLint said me add a nested comment explaining why this mothod is empty...
         }
 
         @Override
         public void onProviderEnabled(String provider) {
-
+            //Do nothing. i wrote it because SonarLint said me add a nested comment explaining why this mothod is empty...
         }
 
         @Override
         public void onProviderDisabled(String provider) {
-
+            //Do nothing. i wrote it because SonarLint said me add a nested comment explaining why this mothod is empty...
         }
     }
 

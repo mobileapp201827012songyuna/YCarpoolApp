@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">YuhanCarpool</string>
+    <string name="onsu_to_yuhan">온수역 -> 유한대학교</string>
+    <string name="expected_time_fee">\n예상 소요 시간\n: 3분\n예상 요금\n: 4,200/2원</string>
+    <string name="call">기사님\n 호출</string>
+    <string name="menubtn">메뉴</string>
+    <string name="findbtn">근처 동행인\n\n찾기</string>
+
+
+
+
 </resources>

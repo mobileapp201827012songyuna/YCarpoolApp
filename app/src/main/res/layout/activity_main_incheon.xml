@@ -18,7 +18,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.972"
-        app:srcCompat="@drawable/taxiimg" />
+        app:srcCompat="@drawable/home5" />
 
     <Button
         android:id="@+id/button14"
@@ -26,6 +26,7 @@
         android:layout_height="wrap_content"
         android:background="@color/colorLavender"
         android:fontFamily="@font/bmujafont"
+        android:onClick="onBupyeongButtonClicked"
         android:text="부평역"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -41,6 +42,7 @@
         android:layout_height="wrap_content"
         android:background="@color/colorLavender"
         android:fontFamily="@font/bmujafont"
+        android:onClick="onGyeyangButtonClicked"
         android:text="계양역"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -56,6 +58,7 @@
         android:layout_height="wrap_content"
         android:background="@color/colorLavender"
         android:fontFamily="@font/bmujafont"
+        android:onClick="onImhakButtonClicked"
         android:text="임학역"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"

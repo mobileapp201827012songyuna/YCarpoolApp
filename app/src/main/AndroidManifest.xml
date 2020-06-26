@@ -2,8 +2,18 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.android.developer.yuhancarpool">
 
-   <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <permission android:name="com.android.developer.yuhancarpool.permission.MAPS_RECEIVE" />
+
+    <uses-permission android:name="com.android.developer.yuhancarpool.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="anroid.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -12,7 +22,40 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".NearPlaceActivity"></activity>
+        <activity android:name=".ImhakActivity"></activity>
+        <activity android:name=".GyeyangMapActivity" />
+        <activity android:name=".SosaMapActivity" />
+        <activity android:name=".YeokgokMapActivity" />
+        <activity android:name=".BucheonMapActivity" />
+        <activity android:name=".ORyuMapActivity" />
+        <activity android:name=".GaebongMapActivity" />
+        <activity android:name=".PointActivity" />
+        <activity android:name=".ToYuhan" />
+        <activity android:name=".BupyeongMap" />
+        <activity android:name=".TaxiComing" />
+        <activity android:name=".ContactDriver" />
+        <activity android:name=".NearPlace2" />
+        <activity android:name=".OnsuMapActivity" />
+        <activity
+            android:name=".ChatActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".PayActivity" />
+        <activity android:name=".FindActivity" />
+
+        <uses-library android:name="com.google.android.maps" />
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".MapActivity" />
+        <activity android:name=".NearPlaceActivity" />
         <activity android:name=".MainIncheonActivity" />
         <activity android:name=".MainBucheonActivity" />
         <activity android:name=".Menu2Activity" />

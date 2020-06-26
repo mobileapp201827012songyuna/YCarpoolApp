@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <FrameLayout
+        android:id="@+id/fram_map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/button24"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="end|top"
+            android:layout_marginTop="445dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@color/colorSkyblue"
+            android:fontFamily="@font/bmujafont"
+            android:onClick="onClick"
+            android:text="@string/findbtn"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <fragment
+            android:id="@+id/map"
+            class="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageButton
+            android:id="@+id/imageButton9"
+            android:layout_width="121dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|top"
+            android:layout_marginTop="445dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:onClick="onTaxiButtonClicked"
+            android:contentDescription="@string/menubtn"
+            map:srcCompat="@drawable/home5" />
+
+
+    </FrameLayout>
+
+</LinearLayout>

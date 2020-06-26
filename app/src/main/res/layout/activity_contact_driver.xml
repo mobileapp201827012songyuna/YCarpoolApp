@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    tools:context=".ContactDriver">
+
+
+
+            <FrameLayout
+                android:id="@+id/fram_map"
+                android:layout_width="match_parent"
+                android:layout_height="375dp">
+
+                <fragment
+                    android:id="@+id/map"
+                    class="com.google.android.gms.maps.SupportMapFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bmujafont"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:text="@string/onsu_to_yuhan"
+                android:textColor="#000"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="398dp"
+                android:layout_height="176dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="191dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorSoftYellow"
+                    android:fontFamily="@font/bmujafont"
+                    android:gravity="center_horizontal"
+                    android:text="@string/expected_time_fee"
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="0dp" />
+
+                <Button
+                    android:id="@+id/button25"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorSoftPink"
+                    android:fontFamily="@font/bmujafont"
+                    android:onClick="onCallButtonClicked"
+                    android:text="@string/call"
+                    android:textColor="#000"
+                    android:textSize="36sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+

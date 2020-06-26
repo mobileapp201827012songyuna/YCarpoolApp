@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainBucheonActivity extends AppCompatActivity {
@@ -20,7 +21,22 @@ public class MainBucheonActivity extends AppCompatActivity {
     }
 
     public void onNearPlaceButtonClicked(View view) {
-        Intent intent = new Intent(getApplicationContext(), NearPlaceActivity.class);
+        Intent intent = new Intent(getApplicationContext(), MapActivity.class);
+        startActivity(intent);
+    }
+
+    public void onBucheonStationButtonClicked(View view) {
+        Intent intent = new Intent(getApplicationContext(), BucheonMapActivity.class);
+        startActivity(intent);
+    }
+
+    public void onYeokgokButtonClicked(View view) {
+        Intent intent = new Intent(getApplicationContext(), YeokgokMapActivity.class);
+        startActivity(intent);
+    }
+
+    public void onSosaButtonClicked(View view) {
+        Intent intent = new Intent(getApplicationContext(), SosaMapActivity.class);
         startActivity(intent);
     }
 }
