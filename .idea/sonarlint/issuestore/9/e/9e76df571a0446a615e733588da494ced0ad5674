@@ -1,13 +1,11 @@
 
 H
-java:S1172!"+Remove this unused method parameter "view".(ÇğÆŠ8¨‹°Åª.
+java:S1172 "+Remove this unused method parameter "view".(ÇğÆŠ8¨‹°Åª.
 H
-java:S1172"+Remove this unused method parameter "view".(“ˆö8ÿÜÜÃª.
-N
-java:S1128"1Remove this unused import 'android.app.Activity'.(‡ÊÍÆ8µéÛÃª.
+java:S1172"+Remove this unused method parameter "view".(“ˆö8ÿÜÜÃª.
 M
-java:S1172&"+Remove this unused method parameter "view".(éƒ¯ÿÿÿÿÿ8ö¾°Åª.
-H
-java:S1172"+Remove this unused method parameter "view".(½²»ñ8é¡ØÃª.
+java:S1172%"+Remove this unused method parameter "view".(éƒ¯ÿÿÿÿÿ8ö¾°Åª.
 G
-java:S1172"+Remove this unused method parameter "view".(ô¯Ÿy8¨«ÙÃª.
+java:S1172"+Remove this unused method parameter "view".(ô¯Ÿy8¨«ÙÃª.
+H
+java:S1172"+Remove this unused method parameter "view".(½²»ñ8é¡ØÃª.

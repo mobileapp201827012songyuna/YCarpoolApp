@@ -1,0 +1,17 @@
+
+W
+java:S1128"5Remove this unused import 'android.location.Address'.(ˆùÄ©úÿÿÿÿ8·ùıú®.
+X
+java:S1128"6Remove this unused import 'android.location.Geocoder'.(¼ö„øÿÿÿÿ8·ùıú®.
+T
+java:S1128"2Remove this unused import 'android.widget.Button'.(²òıÿÿÿÿ8·ùıú®.
+X	java:S125R"<This block of commented-out lines of code should be removed.(ªÚßˆ8·ùıú®.
+r	java:S1172"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†ØÒÀùÿÿÿÿ8·ùıú®.
+Q
+java:S1128	"4Remove this unused import 'android.widget.EditText'.(†Å›Ú8·ùıú®.
+u
+java:S1450"SRemove the "mMap" field and declare it as a local variable in the relevant methods.(—­ƒÌÿÿÿÿÿ8·ùıú®.
+M
+java:S1172W"+Remove this unused method parameter "view".(Ğ¸™áúÿÿÿÿ8·ùıú®.
+H
+java:S1172\"+Remove this unused method parameter "view".(ÇğÆŠ8·ùıú®.

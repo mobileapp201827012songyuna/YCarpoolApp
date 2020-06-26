@@ -1,0 +1,21 @@
+
+U	java:S106["9Replace this use of System.out or System.err by a logger.(··Ûë8æ‰õÈ¬.
+H
+java:S1172|"+Remove this unused method parameter "view".(ÇğÆŠ8×ûÜÉ¬.
+e
+java:S1128"CRemove this unused import 'androidx.fragment.app.FragmentActivity'.(Êñô–úÿÿÿÿ8ñİùÈ¬.
+N
+java:S1128",Remove this unused import 'android.net.Uri'.(òêû‘ıÿÿÿÿ8æ‰õÈ¬.
+M
+java:S1172w"+Remove this unused method parameter "view".(Ğ¸™áúÿÿÿÿ8×ûÜÉ¬.
+E
+java:S1148T"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8æ‰õÈ¬.
+U	java:S106_"9Replace this use of System.out or System.err by a logger.(…Û£á8æ‰õÈ¬.
+Z	java:S106W"9Replace this use of System.out or System.err by a logger.(úÚÎÀÿÿÿÿÿ8æ‰õÈ¬.
+h
+java:S3027]"FPut single-quotes around '=' to use the faster "indexOf(char)" method.(¾¯íüûÿÿÿÿ8æ‰õÈ¬.
+Z	java:S106`"9Replace this use of System.out or System.err by a logger.(–Û‚ùÿÿÿÿ8æ‰õÈ¬.
+c
+java:S3027Z"GPut single-quotes around '\"' to use the faster "indexOf(char)" method.(¯Ÿ¯W8æ‰õÈ¬.
+c
+java:S3027^"FPut single-quotes around '=' to use the faster "indexOf(char)" method.(˜ı»…8æ‰õÈ¬.

@@ -1,0 +1,25 @@
+
+F
+java:S1148ž"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8Û½º¯¬.
+Ÿ
+java:S1186Å"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(çÅðÙ8Û½º¯¬.
+M
+java:S1172M"+Remove this unused method parameter "view".(Ð¸™áúÿÿÿÿ8Û½º¯¬.
+E
+java:S11489"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8Û½º¯¬.
+V
+java:S1144o"9Remove this unused private "showMyLocationMarker" method.(›ªÃ­8Û½º¯¬.
+¤
+java:S1186¯"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ú«€Åøÿÿÿÿ8Û½º¯¬.
+H
+java:S1172R"+Remove this unused method parameter "view".(ÇðÆŠ8ãÚâÈ¬.
+Ÿ
+java:S1186ª"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÏÚýõ8Û½º¯¬.
+Ÿ
+java:S1186Ê"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÁïÕÒ8Û½º¯¬.
+N
+java:S1128"1Remove this unused import 'android.app.Activity'.(‡ÊÍÆ8‘¾äÈ¬.
+Ÿ
+java:S1186À"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÀÄÞ’8Û½º¯¬.
+M
+java:S1172W"+Remove this unused method parameter "view".(»ÃøÙÿÿÿÿÿ8ãÚâÈ¬.

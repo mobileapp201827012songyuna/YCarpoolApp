@@ -1,0 +1,10 @@
+
+u
+java:S1450"SRemove the "mMap" field and declare it as a local variable in the relevant methods.(—­ƒÌÿÿÿÿÿ8Û˜ƒğ¬.
+q
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(…åê8ê‘„ğ¬.
+H
+java:S1172U"+Remove this unused method parameter "view".(¹çšö8Ìµ™ˆ®.
+N
+java:S1128"1Remove this unused import 'android.app.Activity'.(‡ÊÍÆ8¿‡ ˆ®.
+r	java:S117E"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨Œ™ûùÿÿÿÿ8£Æ£ñ¬.

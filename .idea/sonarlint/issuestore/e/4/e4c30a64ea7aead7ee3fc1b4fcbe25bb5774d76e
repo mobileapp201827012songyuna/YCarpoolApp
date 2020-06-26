@@ -1,0 +1,18 @@
+
+Q
+java:S1128"4Remove this unused import 'android.widget.EditText'.(†Å›Ú8ÍŞ¢®.
+T
+java:S1128	"7Remove this unused import 'android.view.WindowManager'.(Ü³‹Å8ÌŞ¢®.
+M
+java:S1172."+Remove this unused method parameter "view".(âë¹ÿÿÿÿÿ8üõß³¬.
+\
+java:S1128":Remove this unused import 'android.view.ViewTreeObserver'.(¹õÃ×şÿÿÿÿ8Š˜³‹®.
+Y
+java:S1128"7Remove this unused import 'android.widget.FrameLayout'.(ºÍ‹Ùúÿÿÿÿ8Š˜³‹®.
+O
+java:S1128"2Remove this unused import 'android.graphics.Rect'.(¤Úï¬8Š˜³‹®.
+N
+java:S1128"1Remove this unused import 'android.app.Activity'.(‡ÊÍÆ8Š˜³‹®.
+j
+java:S1128
+"HRemove this unused import 'android.view.inputmethod.InputMethodManager'.(‰­àûÿÿÿÿ8ÍŞ¢®.
